@@ -2,18 +2,33 @@
 
 Welcome to the **Python Learning** repository! This project serves as a collection of fundamental Python scripts focused on mastering core language concepts, Data Structures, and Algorithms (DSA).
 
-## 🚀 Project Overview
+## 📂 Project Structure
 
-This repository contains practical examples and exercises designed to build a strong foundation in Python programming and algorithmic thinking.
+The project has been organized into logical subdirectories for better navigation:
 
-### 📂 Included Scripts
+### 1. 🧱 Basics
 
-| File               | Description                                                                           | Complexity |
-| :----------------- | :------------------------------------------------------------------------------------ | :--------- |
-| `Binary Search.py` | Efficiently finds a target number in a sorted list using the Binary Search algorithm. | O(log n)   |
-| `Test_3_Big_O.py`  | Implementation of a basic search in a list (Linear Search).                           | O(n)       |
-| `Test_1.py`        | Demonstrates basic Python list operations (indexing, appending, removing).            | -          |
-| `Test_2.py`        | practicing list iteration, length checking, and basic list manipulation.              | -          |
+Foundational Python concepts and data structure manipulations.
+
+- `basics/list_basics.py`: Initial exploration of list indexing, appending, and basic methods.
+- `basics/list_operations.py`: Practicing list iteration, measuring length, and modifying content.
+
+### 2. ⚡ Algorithms
+
+Implementations of classic computer science algorithms.
+
+#### 🔍 Searching
+
+- `algorithms/searching/linear_search.py`: Simple search through a list. **O(n)**
+- `algorithms/searching/binary_search.py`: Efficient search on sorted lists. **O(log n)**
+
+#### 🧼 Sorting
+
+- `algorithms/sorting/bubble_sort.py`: Implementation of the Bubble Sort algorithm, featuring both **Ascending** and **Descending** order sorts.
+
+#### 🔄 Recursion
+
+- `algorithms/recursion/recursive_sum.py`: demonstrating recursion by calculating the sum of numbers from 1 to `n`.
 
 ## 🛠️ Getting Started
 
@@ -23,17 +38,18 @@ This repository contains practical examples and exercises designed to build a st
 
 ### Running the Scripts
 
-1. Clone this repository (if applicable) or navigate to the directory.
-2. Run any script using the Python interpreter:
+Navigate to the desired subdirectory and run scripts using the Python interpreter:
 
 ```powershell
-python "Binary Search.py"
+# Example: Running the Bubble Sort algorithm
+python algorithms/sorting/bubble_sort.py
 ```
 
 ## 📈 Learning Goals
 
-- Understand and implement fundamental search algorithms.
+- Understand and implement fundamental search and sort algorithms.
 - Master Python's built-in data structures (Lists).
+- Explore recursive programming patterns.
 - Analyze time complexity (Big O Notation) for different approaches.
 
 ---

@@ -12,4 +12,12 @@ for i in range(m):
     for j in range (0, m-i-1):
         if numbers[j] < numbers[j+1]:
             numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
-print(numbers)
+print('Ascending order:', numbers)
+
+numbers = [12,7,3,15,9]
+m= len(numbers)
+for i in range(m):
+    for j in range (0, m-i-1):
+        if numbers[j] < numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+print('Descending:', numbers)
