@@ -1,5 +1,6 @@
-# Ignore our skill system folder
+# Ignore our skill system folders
 .skills/
+.skill/
 
 # Common Python ignores
 __pycache__/
