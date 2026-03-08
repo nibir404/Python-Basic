@@ -1,1 +1,12 @@
-.skill\python_dsa_basics
+# Ignore our skill system folder
+.skills/
+
+# Common Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
